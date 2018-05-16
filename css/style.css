@@ -1,0 +1,392 @@
+@charset "utf-8";
+* {
+    -webkit-touch-callout: none;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, button, input, textarea, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+
+input {
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-bottom-color: #a4a4a4;
+    outline: medium;
+    text-align: center;
+}
+
+/*header*/
+.headerDiv {
+    width: 98%;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.headerFloat50 {
+    width: 50%;
+    height: 120px;
+    float: left;
+    line-height: 120px;
+}
+
+.headerLogoDiv {
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.headerLogoDiv img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.headerTitleDiv {
+    width: 80%;
+    height: 120px;
+    float: left;
+    text-align: left;
+    line-height: 120px;
+}
+
+.signInBtn {
+    color: #429eff;
+    margin-top: 40px;
+    width: 50px;
+    height: 40px;
+}
+
+.signUpBtn {
+    color: #429eff;
+    margin-top: 40px;
+    width: 50px;
+    height: 40px;
+}
+
+.searchInput {
+    width: 25%;
+    border: 1px solid #e2e2e2;
+    height: 40px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.searchBtn {
+    width: 78px;
+    height: 40px;
+    background: #545c64;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20%;
+}
+
+/*导航栏*/
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: #545c64
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #545c64;
+}
+
+.nav ul li {
+    width: 16%;
+    height: 60px;
+    float: left;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.nav ul li:hover {
+    font-size: 120%;
+    background: black;
+}
+
+/*header end*/
+
+/*main*/
+
+/*main end*/
+
+/*footer*/
+.footerDiv {
+    width: 88%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.footerTopDiv {
+    width: 100%;
+    height: 120px;
+}
+
+.footerBottomDiv {
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.footerLine {
+    width: 100%;
+    height: 1px;
+    background: gray;
+}
+
+.footerMiddleDiv {
+    width: 100%;
+    height: 118px;
+}
+
+.footerLeft25 {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.footerTopImageDiv {
+    width: 40%;
+    height: 60px;
+    float: left;
+}
+
+.footerTopImageDiv img {
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: 29px;
+}
+
+.footerTopTextDiv {
+    width: 50%;
+    height: 60px;
+    float: left;
+    margin-top: 29px;
+    margin-left: 10%;
+}
+
+.footerTopTextDiv div {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footerLeft20 {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.erweimaDiv {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.erweimaDiv img {
+    width: 180px;
+    height: 180px;
+}
+
+.footerUlLiDiv{
+    width: 100%;
+    height:100%;
+    margin-top: 20px;
+}
+
+.footerUlLiDiv ul{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.footerUlLiDiv ul li{
+    font-size: 90%;
+    line-height: 40px;
+}
+
+/*footer end*/
+
+.headImage {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+}
+
+.Prompt-1 {
+    width: 60%;
+    height: 30px;
+    margin-left: 20%;
+    background-color: #545c64;
+    text-align: center;
+}
+
+.font-1 {
+    color: rgb(233, 225, 179);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.flower-line {
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+}
+
+.flower-1 {
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+}
+
+.flower-line-2-left {
+    width: 65%;
+    margin-left: 10%;
+    height: 500px;
+    /* background-color: #429eff; */
+    float: left;
+}
+
+.flower-line-2-right {
+    width: 13%;
+    margin-left: 2%;
+    height: 500px;
+    background-color: rgb(247, 196, 244);
+    float: left;
+    margin-right: 10%;
+}
+
+.flower-des-1 {
+    width: 48%;
+    height: 48%;
+    float: left;
+}
+
+.flower-des-2 {
+    width: 48%;
+    height: 48%;
+    float: left;
+    margin-left: 4%;
+}
+
+.flower-des-3 {
+    width: 48%;
+    height: 48%;
+    float: left;
+    margin-top: 2.5%;
+}
+
+.flower-des-4 {
+    width: 48%;
+    height: 48%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2.5%;
+}
+
+.font-des-top {
+    width: 100%;
+    height: 23%;
+    /* background-color: #429eff */
+}
+
+.font-des {
+    width: 100%;
+    height: 23%;
+    margin-top: 3%;
+    /* background-color: #429eff */
+}
+
+/* banner轮播图 */
+#slideShowContainer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slideShowContainer img {
+    width: 100%;
+    height: 600px;
+    /*transform: scale(1.08);*/
+}
+
+.picUl {
+    padding-left: -40px;
+    list-style: none;
+}
+
+#dotUl {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 21px;
+    bottom: 15px;
+    z-index: 2;
+}
+
+.selected {
+    width: 12px;
+    height: 12px;
+    background-color: #FFFFFF;
+    color: transparent;
+    margin-left: 9px;
+}
+
+.unselected {
+    width: 12px;
+    height: 12px;
+    background-color: #0069AD;
+    color: transparent;
+    margin-left: 9px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/*banner轮播结束*/
